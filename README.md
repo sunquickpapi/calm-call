@@ -47,11 +47,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="docs/intro.png" width="640" alt="Opening animation: the tile settles, the phone rings, the moon rises" /><br/>
-  <sub>The opening animation: the phone gives a gentle ring, the moon rises, the water settles.</sub>
-</p>
-
 ## Why I built it
 
 I kept forgetting to call my parents. It started as a Python Telegram bot, became an iOS Shortcut,
