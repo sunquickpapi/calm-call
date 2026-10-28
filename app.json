@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Calm Call",
+    "slug": "CallParents",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.callparents"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3E8E5E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF6EF"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/61edc67b-5910-4f33-8c46-ec63fffbcd4a"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61edc67b-5910-4f33-8c46-ec63fffbcd4a"
+      }
+    },
+    "owner": "fvlnzm"
+  }
+}

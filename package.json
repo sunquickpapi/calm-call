@@ -1,0 +1,35 @@
+{
+  "name": "callparents",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "9.2.1",
+    "@supabase/supabase-js": "^2.117.3",
+    "adhan": "^4.4.6",
+    "expo": "~58.0.0",
+    "expo-linking": "~58.0.14",
+    "expo-notifications": "~58.1.6",
+    "expo-status-bar": "~58.0.4",
+    "expo-updates": "~58.0.18",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-svg": "15.16.0"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "publish": "npx eas-cli@latest update --channel main --environment production --message \"Update\"",
+    "test": "npx -y tsx tests/logic.test.mts"
+  },
+  "private": true
+}
